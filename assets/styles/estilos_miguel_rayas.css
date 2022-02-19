@@ -12,12 +12,21 @@ h2{
     color: white;
 }
 article{
-    background-color: rgb(44, 43, 43);
+    background-color: rgb(red, green, blue); 44,43,43;
+    padding: 1.5rem;
+    border-bottom: 1px solid #ffffff;
 }
 nav>ul>li {
     color: yellow;
 }
-.titulo_del_blog{
-    text-align: center;
-    font-size: 3rem;
+.titulo_del_blog{ text-align: center; 
+font-size: 3rem; 
+}
+#footerblog{
+    margin: 2rem;
+}
+.ilustracion figcaption{
+margin-top: 1rem;
+margin-left: 1rem;
+font-style: italic;
 }
