@@ -17,7 +17,11 @@ article{
     border-bottom: 1px solid #ffffff;
 }
 nav>ul>li {
-    color: yellow;
+    color: black;
+    
+}
+nav>ul>li>a {
+    text-decoration: none;
 }
 .titulo_del_blog{ text-align: center; 
 font-size: 3rem; 
