@@ -12,7 +12,7 @@ h2{
     color: white;
 }
 article{
-    background-color: rgb(red, green, blue)
+    background-color: rgb(red, green, blue);
     padding: 1.5rem;
     border-bottom: 1px solid #ffffff;
 }
@@ -36,6 +36,7 @@ font-style: italic;
 }
 .ilustracion{
     border: white 4px solid;
+    display: inline-block;
 }
 section{
     display: grid;
