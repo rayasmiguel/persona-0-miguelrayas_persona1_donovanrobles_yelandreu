@@ -21,7 +21,7 @@ nav>ul>li {
     
 }
 nav>ul>li>a {
-    text-decoration: none;
+    text-decoration: #fff;
 }
 .titulo_del_blog{ text-align: center; 
 font-size: 3rem; 
@@ -45,7 +45,7 @@ section{
     gap: 3rem;
 }
 section>header {
-    grid-column: span 12;
+    grid-column: span 12
 }
 section>main {
     grid-column: span 8;
@@ -55,4 +55,30 @@ section>aside {
 }
 section>footer {
     grid-column: span 12;
+}
+nav{
+    font-size: 1.3rem;
+}
+nav> ul{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    border-bottom: 1px solid  #fff;
+    padding-bottom: 0.5rem;
+}
+nav>ul>li>a{
+    text-decoration: underline;
+    color: greenyellow;
+}
+article>header>hgroup{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+article>header>hgroup>h2{
+    display: flex;
+    align-items: center;
+}
+article>head>hgroup>h2>img{
+    margin-right: 1rem;
 }
