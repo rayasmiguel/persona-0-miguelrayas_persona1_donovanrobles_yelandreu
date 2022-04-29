@@ -82,3 +82,28 @@ article>header>hgroup>h2{
 article>head>hgroup>h2>img{
     margin-right: 1rem;
 }
+#footer_blog{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 4rem;
+    padding-bottom: 4rem;
+    padding-left: 0;
+    padding-right: 0;
+    font-size: 1.3rem;
+}
+#footer_blog div:nth-child(2) {
+    font-size: 0.9rem;
+}
+aside>div>img {
+    background-color: #fff;
+    padding: 0.5rem;
+    border-radius: 50%;
+}
+aside>h2{
+    text-align: center;
+    font-size: 1.3rem;
+}
+aside>div:nth-child(odd){
+    background-color: rgb(44, 43, 43);
+}
